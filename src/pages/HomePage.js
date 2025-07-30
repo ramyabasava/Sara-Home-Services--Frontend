@@ -4,7 +4,7 @@ import ServiceCard from '../components/ServiceCard';
 
 import { BsSearch, BsShieldCheck, BsPeople, BsLightbulb, BsTools } from 'react-icons/bs';
 
-const API_BASE_URL = 'https://sara-home-services-backend.onrender.com';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:5000/api';
 
 const HomePage = () => {
   const [services, setServices] = useState([]);
