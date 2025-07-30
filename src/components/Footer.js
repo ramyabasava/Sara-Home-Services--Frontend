@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} ServiceOnWheel. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Sara Services. All rights reserved.</p>
         </div>
       </div>
     </footer>
